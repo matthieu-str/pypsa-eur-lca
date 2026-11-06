@@ -1,0 +1,129 @@
+Name,LCA,Comment
+onwind,,Composition
+onwind turbine,20,
+onwind connection,20,
+offwind-ac,,Composition
+offwind-ac fixed parts,20,
+offwind-ac moving parts,20,
+offwind-dc,,Composition
+offwind-dc fixed parts,20,
+offwind-dc moving parts,20,
+offwind-float,,Composition
+offwind-float fixed parts,20,
+offwind-float moving parts,20,
+solar,30,
+solar-hsat,30,
+solar rooftop,30,
+nuclear,40,
+rural solar thermal,25,
+urban decentral solar thermal,25,
+urban central solar thermal,25,
+urban central geothermal heat (Generator),20,
+CCGT,36,
+OCGT,36,
+H2 Fuel Cell,2.686005909,20'000 hours of operation with 0.85 capacity factor
+H2 Electrolysis,,Composition
+H2 Electrolysis plant,20,
+H2 Electrolysis plant decom,20,
+H2 Electrolysis stack,7.5,
+H2 Electrolysis stack decom,7.5,
+SMR,,Composition
+SMR plant,50,
+SMR tank,50,
+SMR CC,,Composition
+SMR CC plant,50,
+SMR CC tank,50,
+Sabatier,50,
+methanolisation,30,
+Fischer-Tropsch,30,
+DAC,,Composition
+DAC plant,20,
+DAC plant decom,20,
+biogas to gas,50,
+rural air heat pump,20,
+urban decentral air heat pump,20,
+rural ground heat pump,,Composition
+"rural ground heat pump, hp",20,
+"rural ground heat pump, hex",50,
+urban central air heat pump,20,
+"urban central ground heat pump, hp",20,
+"urban central ground heat pump, hex",50,
+urban central ground heat pump,,Composition
+urban central river_water heat pump,15,
+urban central sea_water heat pump,15,
+urban central geothermal heat pump,20,
+rural resistive heater,,Composition
+"rural resistive heater, heater",20,
+"rural resistive heater, eol",20,
+urban decentral resistive heater,,Composition
+"urban decentral resistive heater, heater",20,
+"urban decentral resistive heater, eol",20,
+urban central resistive heater,,Composition
+"urban central resistive heater, heater",20,
+"urban central resistive heater, eol",20,
+rural gas boiler,20,
+urban decentral gas boiler,20,
+urban central gas boiler,20,
+rural biomass boiler,20,
+urban decentral biomass boiler,20,
+urban central gas CHP,,Composition
+urban central gas CHP common,13.43002955,100'000 hours of operation with capacity factor of 0.85
+urban central gas CHP electricity,13.43002955,100'000 hours of operation with capacity factor of 0.85
+urban central gas CHP heat,13.43002955,100'000 hours of operation with capacity factor of 0.85
+urban central gas CHP CC,,Composition
+urban central gas CHP CC common,13.43002955,100'000 hours of operation with capacity factor of 0.85
+urban central gas CHP CC electricity,13.43002955,100'000 hours of operation with capacity factor of 0.85
+urban central gas CHP CC heat,13.43002955,100'000 hours of operation with capacity factor of 0.85
+urban central solid biomass CHP,,Composition
+urban central solid biomass CHP boiler,20,
+urban central solid biomass CHP dust,20,
+urban central solid biomass CHP turbine,20,
+urban central solid biomass CHP CC,,Composition
+urban central solid biomass CHP CC boiler,20,
+urban central solid biomass CHP CC dust,20,
+urban central solid biomass CHP CC turbine,20,
+waste CHP,,Composition
+waste CHP boiler,40,
+waste CHP turbine,20,
+waste CHP CC,,Composition
+waste CHP CC boiler,40,
+waste CHP CC turbine,20,
+battery,,No data in ecoinvent dataset
+home battery (Store),,No data in ecoinvent dataset
+H2 Store,20,"Steel tank, also applied to salt caverns (conservative)"
+gas (Store),50,
+oil (Store),50,
+methanol (Store),50,
+co2 stored (Store),50,
+rural water tanks (Store),,No data in ecoinvent dataset
+urban decentral water tanks (Store),,No data in ecoinvent dataset
+urban central water tanks (Store),,No data in ecoinvent dataset
+urban central water pits (Store),,No data in ecoinvent dataset
+AC (Line),30,
+electricity distribution grid,30,
+H2 pipeline,40,
+gas pipeline,40,
+hydro,150,
+ror,80,
+PHS,150,
+H2 turbine,36,
+OCGT methanol,36,
+biomass to liquid,50,
+electrobiofuels,50,
+biomass-to-methanol,30,
+Haber-Bosch,50,
+ammonia cracker,50,
+ammonia store,50,
+CO2 pipeline,,No data in premise dataset
+gas pipeline new,40,
+DC,,Composition
+DC aerial,40,
+DC subsea,40,
+urban decentral oil boiler,,Composition
+"urban decentral oil boiler, boiler",20,
+"urban decentral oil boiler, storage",20,
+rural oil boiler,,Composition
+"rural oil boiler, boiler",20,
+"rural oil boiler, storage",20,
+rural retrofitted H2 boiler,20,
+urban decentral retrofitted H2 boiler,20,

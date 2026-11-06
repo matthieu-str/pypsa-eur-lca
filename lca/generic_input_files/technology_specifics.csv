@@ -1,0 +1,28 @@
+Name,Specifics,Amount,Comment
+methanolisation,Process,,
+Fischer-Tropsch,Background search,1,
+Fischer-Tropsch,Change flow amount (Operation),biosphere; cc6a1abb-b123-4ca6-8f16-38209df609be; 0.0,CO2 capture flow already accounted in CO2 capture technologies
+DAC,DAC,,
+biogas to gas,Process,,
+rural resistive heater,No background search,,
+urban decentral resistive heater,No background search,,
+urban central resistive heater,No background search,,
+urban central gas CHP CC,Carbon flows,0.1,Capture rate (0.9): \cite{pypsaeur}
+urban central solid biomass CHP CC,Carbon flows,0.1,Capture rate (0.9): \cite{pypsaeur}
+waste CHP,Add CO2 (fossil),1.235464,"Fossil CO2 emissions of the incineration of plastic waste (non-sequestered HVC): CO2 intensity (0.2571 t/MWh_HVC) and HVC input (4.805 MWh_HVC/MWh_el, 2030): \cite{pypsaeur}. The waste incineration datasets carry no burden in the cut-off system model"
+waste CHP CC,Add CO2 (fossil),1.235464,"Fossil CO2 emissions of the incineration of plastic waste (non-sequestered HVC): CO2 intensity (0.2571 t/MWh_HVC) and HVC input (4.805 MWh_HVC/MWh_el, 2030): \cite{pypsaeur}. The waste incineration datasets carry no burden in the cut-off system model"
+waste CHP CC,Carbon flows,0.1,Capture rate (0.9): \cite{pypsaeur}
+biomass to liquid,Background search,2,
+biomass-to-methanol,Background search,2,
+electrobiofuels,Background search,2,
+solid biomass (Generator),Change flow amount (Resource),"technosphere; softwood forestry, spruce, sustainable forest management; 0.0","PyPSA-Eur sustainable solid biomass consists of residues, therefore we remove burden from wood chips production"
+solid biomass (Generator),Change flow amount (Resource),"technosphere; softwood forestry, pine, sustainable forest management; 0.0","PyPSA-Eur sustainable solid biomass consists of residues, therefore we remove burden from wood chips production"
+solid biomass (Generator),Change flow amount (Resource),"technosphere; hardwood forestry, birch, sustainable forest management; 0.0","PyPSA-Eur sustainable solid biomass consists of residues, therefore we remove burden from wood chips production"
+solid biomass (Generator),Change flow amount (Resource),"technosphere; hardwood forestry, beech, sustainable forest management; 0.0","PyPSA-Eur sustainable solid biomass consists of residues, therefore we remove burden from wood chips production"
+solid biomass (Generator),Change flow amount (Resource),"technosphere; hardwood forestry, oak, sustainable forest management; 0.0","PyPSA-Eur sustainable solid biomass consists of residues, therefore we remove burden from wood chips production"
+solid biomass (Generator),Change flow amount (Resource),"technosphere; wood chips production, softwood, at sawmill; 0.0","PyPSA-Eur sustainable solid biomass consists of residues, therefore we remove burden from wood chips production"
+solid biomass (Generator),Change flow amount (Resource),"technosphere; wood chips production, hardwood, at sawmill; 0.0","PyPSA-Eur sustainable solid biomass consists of residues, therefore we remove burden from wood chips production"
+solid biomass (Generator),"Add CO2 (non-fossil, resource correction)",1.607,"CO2 uptake flow (biogenic), as wood chips production flows are removed"
+gas for industry CC,Carbon flows,0.1,Capture rate (0.9): \cite{pypsaeur}
+process emissions CC,Carbon flows,0.1,Capture rate (0.9): \cite{pypsaeur}
+solid biomass for industry CC,Carbon flows,0.1,Capture rate (0.9): \cite{pypsaeur}

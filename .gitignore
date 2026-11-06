@@ -99,3 +99,9 @@ doc/img/intro-workflow.svg
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# lca
+lca/export/
+lca/your_specific_input_files/
+lca/results/
+venv_lca/
