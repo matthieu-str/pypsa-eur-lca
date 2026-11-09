@@ -4,9 +4,6 @@ Fischer-Tropsch,Background search,1,
 Fischer-Tropsch,Change flow amount (Operation),biosphere; cc6a1abb-b123-4ca6-8f16-38209df609be; 0.0,CO2 capture flow already accounted in CO2 capture technologies
 DAC,DAC,,
 biogas to gas,Process,,
-rural resistive heater,No background search,,
-urban decentral resistive heater,No background search,,
-urban central resistive heater,No background search,,
 urban central gas CHP CC,Carbon flows,0.1,Capture rate (0.9): \cite{pypsaeur}
 urban central solid biomass CHP CC,Carbon flows,0.1,Capture rate (0.9): \cite{pypsaeur}
 waste CHP,Add CO2 (fossil),1.235464,"Fossil CO2 emissions of the incineration of plastic waste (non-sequestered HVC): CO2 intensity (0.2571 t/MWh_HVC) and HVC input (4.805 MWh_HVC/MWh_el, 2030): \cite{pypsaeur}. The waste incineration datasets carry no burden in the cut-off system model"
