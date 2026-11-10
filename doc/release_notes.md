@@ -6,6 +6,10 @@
 <!-- Upcoming Release -->
 <!-- ================= -->
 
+* Feature: Custom powerplants can now be specified with a configurable path and multiple files are accepted by the new option `electricity: custom_powerplants_fn` ([#2388](https://github.com/PyPSA/pypsa-eur/pull/2388)).
+
+* Feature: New solver options to solve the model with the commercial solver MOSEK.
+
 * **Breaking:** Removed the integration of the discontinued OETC service. A non-empty `solving: oetc:` section in the config now raises an error ([#2398](https://github.com/PyPSA/pypsa-eur/pull/2398)).
 * Fix: Runs with only landlocked countries and offshore technologies disabled work again, which broke in [#2169](https://github.com/PyPSA/pypsa-eur/pull/2169). Renewable capacity estimation now skips carriers missing from `electricity: renewable_carriers` ([#2378](https://github.com/PyPSA/pypsa-eur/pull/2378)).
 
