@@ -21,7 +21,7 @@ Impact_category,Unit,Abbrev
 "('EF v3.1', 'land use', 'soil quality index')",dimensionless,LU
 "('EF v3.1', 'material resources: metals/minerals', 'abiotic depletion potential (ADP): elements (ultimate reserves)')",kg Sb-Eq,MR
 "('EF v3.1', 'ozone depletion', 'ozone depletion potential (ODP)')",kg CFC-11-Eq,OD
-"('EF v3.1', 'particulate matter formation', 'impact on human health')",disease incidence,PMF
+"('EF v3.1', 'particulate matter formation', 'impact on human health')",disease incidence,PM
 "('EF v3.1', 'photochemical oxidant formation: human health', 'tropospheric ozone concentration increase')",kg NMVOC-Eq,POF
 "('EF v3.1', 'water use', 'user deprivation potential (deprivation-weighted water consumption)')",m3 world eq. deprived,WU
 "('IMPACT World+ Damage 2.2.1 for ecoinvent v3.12', 'Ecosystem quality', 'Climate change, ecosystem quality, marine ecosystem, long term (beta)')",PDF.m2.yr,CCMEQL
