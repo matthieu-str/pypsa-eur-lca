@@ -1,14 +1,16 @@
 # Settings of the LCA constraints (lca_constraints.py). Paths are relative to this file.
+# They apply to every PyPSA-Eur run whose configuration sets custom_extra_functionality to lca_constraints.py.
 technologies: your_specific_input_files/technologies.csv  # output of the first notebook
 scores: results/impact_scores.csv  # output of mescal
 scores_direct: results/impact_scores_direct.csv  # output of mescal: direct emissions of the operation only
-abbrev: generic_input_files/impact_abbrev.csv
+abbrev: generic_input_files/impact_abbrev.csv  # one abbreviation per impact category
 
 # Yearly limits in the unit of the indicator: one value for all years, or one per year, e.g.:
 #   LCA: {m_CCS_tot: 300.0e+9}                      total impacts (infrastructure + operation)
-#   Infrastructure: {m_CCS_tot: {2050: 100.0e+9}}   construction and decommissioning
+#   Infrastructure: {m_CCS_tot: {2050: 100.0e+9}}   construction and decommissioning, spread over the lifetime
 #   Operation: {}                                   operation and resources
-#   Direct: {}                                      direct emissions of the operation
+#   Direct: {}                                      direct emissions of the operation (a part of Operation)
+# Years without a limit are not constrained.
 limits:
   LCA: {}
   Infrastructure: {}
