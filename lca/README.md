@@ -80,13 +80,26 @@ Generates the LCA metrics for every component of the composed networks.
 
 ### `3_Run_PyPSA_with_LCA`
 
-Runs PyPSA with the LCA metrics as additional constraints in the optimization problem.
-LCA settings are specified in `lca_setting.yaml`:
+Runs PyPSA with the LCA metrics as additional constraints in the optimization problem. The constraints are
+added by `lca_constraints.py`, which PyPSA-Eur calls when its configuration contains (path relative to the
+`rules` folder):
+```yaml
+solving:
+  options:
+    custom_extra_functionality: ../lca/lca_constraints.py
+```
 
-- `limits`: upper limits on life-cycle impacts for any impact category, either in total or
-  restricted to infrastructure, operation, or direct emissions.
-- Objective: keep the network `cost` as the objective, or replace it with an impact category.
-- `pypsa_co2_limits`: keep or deactivate PyPSA-Eur's built-in CO₂ limit constraint.
+LCA settings are specified in `lca_settings.yaml`, and apply to every run with these lines:
+
+- `limits`: yearly upper limits on life-cycle impacts for any impact category, either in total or
+  restricted to infrastructure, operation, or direct emissions. Years without a limit are not constrained.
+- `objective`: keep the network `cost` as the objective, or replace it with an impact category (summed over
+  all years). In the latter case, the cost is not minimized at all. To get the cheapest system close to the
+  lowest impacts, run a second time with `objective: cost` and an `LCA` limit slightly above the optimum.
+- `pypsa_co2_limits`: keep or deactivate PyPSA-Eur's built-in CO₂ limit constraint. The default settings
+  deactivate it and only limit direct emissions in 2050: adapt them to your study.
+
+The settings used are saved in the solved network (`n.meta['lca']`).
 
 Run this notebook in the `pixi` environment if you want to solve the network directly in the notebook,
 or in `venv_lca` if the network is solved separately via the `pixi` shell.
